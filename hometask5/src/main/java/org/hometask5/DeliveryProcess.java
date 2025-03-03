@@ -8,8 +8,4 @@ public interface DeliveryProcess {
     default void deliveryOrder(String orderDetails) {
         System.out.println("Ordering through the window :" + orderDetails);
     }
-
-
-
-
 }

@@ -7,7 +7,7 @@ package org.hometask5;
 public class Main {
     public static void main(String[] args) {
 
-        OrderReceiver onlineOrderReceiver = new OnlineOrderReceiver();
+        OrderReceiver onlineOrderReceiver  = new PhoneOrderReceiver();
         OrderRepository orderRepository = new OrderRepositoryImpl();
         CookingProcessService cookingProcessService = new CookingProcessServiceImpl();
 

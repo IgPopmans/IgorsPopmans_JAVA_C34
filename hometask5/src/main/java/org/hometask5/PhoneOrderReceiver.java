@@ -8,6 +8,5 @@ public class PhoneOrderReceiver implements OrderReceiver {
     @Override
     public void receiveOrder(String orderDetails) {
         System.out.println("Phone order received" + orderDetails);
-
     }
 }

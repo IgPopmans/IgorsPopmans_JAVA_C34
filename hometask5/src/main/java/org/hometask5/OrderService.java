@@ -10,6 +10,4 @@ public interface OrderService {
     void saveOrder(String orderDetails);
 
     void cookOrder(String orderDetails);
-
-
 }
